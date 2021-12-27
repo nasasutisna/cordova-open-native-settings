@@ -93,7 +93,7 @@ public class NativeSettings extends CordovaPlugin {
         } else if (action.equals("keyboard_subtype")) {
             intent = new Intent(android.provider.Settings.ACTION_INPUT_METHOD_SUBTYPE_SETTINGS);
         } else if (action.equals("storage")) {
-            intent = new Intent(android.provider.Settings.ACTION_INTERNAL_STORAGE_SETTINGS);
+            intent = new Intent(android.provider.Settings.ACTION_MANAGE_ALL_FILES_ACCESS_PERMISSION);
         } else if (action.equals("locale")) {
             intent = new Intent(android.provider.Settings.ACTION_LOCALE_SETTINGS);
         } else if (action.equals("location")) {
